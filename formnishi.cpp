@@ -60,8 +60,6 @@ pdb_nishi::pdb_nishi(const char *pdbname, vector<int> num_pol){
 		strncpy(buf2, &buf1[21], 1); buf2[1]='\0';
         //formnishi
 		//sscanf(buf2,"%c",bfchai);
-        buf2[0]=count_chainid;
-		sscanf(buf2,"%c",bfchai);
 		strncpy(buf2, &buf1[22], 4); buf2[4] = '\0';
 		sscanf(buf2, "%d", &bfrnum);
 		strncpy(buf2, &buf1[30], 8); buf2[8] = '\0';
@@ -144,6 +142,8 @@ pdb_nishi::pdb_nishi(const char *pdbname, vector<int> num_pol){
           count_resnum = 1;
           count_chainid ++;
         }
+        buf2[0]=count_chainid;
+		sscanf(buf2,"%c",bfchai);
         chai.push_back(bfchai);
         rnum.push_back(count_resnum);
         // formnishi
