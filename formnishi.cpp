@@ -60,7 +60,7 @@ pdb_nishi::pdb_nishi(const char *pdbname, vector<int> num_pol){
 		strncpy(buf2, &buf1[21], 1); buf2[1]='\0';
         //formnishi
 		//sscanf(buf2,"%c",bfchai);
-		strncpy(buf2, &buf1[22], 4); buf2[4] = '\0';
+		strncpy(buf2, &buf1[22], 8); buf2[8] = '\0';
 		sscanf(buf2, "%d", &bfrnum);
 		strncpy(buf2, &buf1[30], 8); buf2[8] = '\0';
 		sscanf(buf2, "%f", &bfcoox);
