@@ -15,8 +15,8 @@
 //	#endif
 
 //#define SCAN_FORMAT "%6s%5d%4s%4s%1s%4d%7f%7f%7f%5f%5f%s" // no missing
-#define WRITE_FORMAT_1 "%-6s%5d%5s %-4s%c %-5d%10.3f%8.3f%8.3f%6.2f%6.2f%12s\n"
-#define WRITE_FORMAT_2 "%-6s%5d  %-3s %-4s%c %-5d%10.3f%8.3f%8.3f%6.2f%6.2f%12s\n"
+#define WRITE_FORMAT_1 "%-6s%5d%5s %-4s%c %-7d%8.3f%8.3f%8.3f%6.2f%6.2f%12s\n"
+#define WRITE_FORMAT_2 "%-6s%5d  %-3s %-4s%c %-7d%8.3f%8.3f%8.3f%6.2f%6.2f%12s\n"
 //#define SCAN_FORMAT "%6s%5d%4s%4s%5d%7f%7f%7f%5f%5f" // missing chain element
 //#define WRITE_FORMAT_1 "%-6s%5d%5s %-4s%5d%12.3f%8.3f%8.3f%6.2f%6.2f\n"
 //#define WRITE_FORMAT_2 "%-6s%5d  %-3s %-4s%5d%12.3f%8.3f%8.3f%6.2f%6.2f\n"
